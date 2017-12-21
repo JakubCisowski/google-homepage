@@ -1,7 +1,3 @@
-html {
-	width:100%; height:100%;
-}
-
 /* Navigation bar */
 
 .navbar {
@@ -23,12 +19,6 @@ html {
 	width: 30px; height: 30px;
 }
 
-.navbar img .squares{
-	position:relative;
-	top: 15px;
-	width: 1px; height: 1px;
-}
-
 .navbar a:link, .navbar a:visited{
 	color: #494545;
 	text-decoration: none;
@@ -46,7 +36,7 @@ html {
 }
 
 input[type=search] {
-  	width: 530px; height: 45px;
+  	width: 580px; height: 45px;
   	padding-left: 10px;
   	margin-top: 23px;
 
@@ -89,7 +79,7 @@ input[type=search]:hover {
 
 .footer {
 	position: absolute;
-	margin-top:265px;
+	bottom: 0;
 
 	width:100%;
 	height: 82px;
@@ -99,25 +89,28 @@ input[type=search]:hover {
 
 .upper-f{
 	display:block;
+	box-sizing: border-box;
 	height:41px;
-	padding-top:10px;
-	padding-left: 50px;
+	padding-left: 30px;
 
-	font-size: 15px;
-	font-family: Roboto;
 	border-top: 1px solid #dad8d8;
 	border-bottom: 1px solid #dad8d8;
+	font-size: 15px;
+	font-family: Roboto;
 }      
 
 .lower-f{
 	display:block;
-	height:41px;
-	padding-left: 40px;
-	margin-top: 10px;
+	padding-left: 20px;
 	
 	background-color: #f3f2f2;
 	font-size: 13px;
 	font-family: Roboto;
+}
+
+.upper-f p{
+	line-height: 41px;
+	vertical-align: middle;
 }     
 
 .left{
@@ -142,4 +135,6 @@ input[type=search]:hover {
 	display:inline-block;
 	margin: 0 10px;
 	font-family: Roboto;
+	line-height: 41px;
+	vertical-align: middle;
 }
