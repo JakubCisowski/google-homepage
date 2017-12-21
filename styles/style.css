@@ -1,0 +1,145 @@
+html {
+	width:100%; height:100%;
+}
+
+/* Navigation bar */
+
+.navbar {
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.navbar span {
+	display:inline-block;
+	margin: 0 10px;
+	font-family: Roboto;
+	height: 30px;
+}
+
+.navbar img {
+	position:relative;
+	top: 10px;
+	width: 30px; height: 30px;
+}
+
+.navbar img .squares{
+	position:relative;
+	top: 15px;
+	width: 1px; height: 1px;
+}
+
+.navbar a:link, .navbar a:visited{
+	color: #494545;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+/* Main */
+
+.main {
+	text-align: center;
+	margin-top: 130px;
+}
+
+input[type=search] {
+  	width: 530px; height: 45px;
+  	padding-left: 10px;
+  	margin-top: 23px;
+
+	box-shadow: 0.1px 1px 2px grey;
+	border: 1px solid #dad8d8;
+	border-radius: 0;
+	font-family: Roboto;
+	font-size: 100%;
+}
+
+input[type=search]:hover {
+	border-color: #cdcbcb;
+}
+
+.button {
+	height: 35px; 
+	margin: 20px 8px 0 8px;
+	box-sizing: border-box;
+	
+	text-align: center;
+	border: none;
+	color: #5c5757;
+	background-color: #f3f2f2;
+	font-weight: 600;
+}
+
+#left {
+	width: 126px;
+}
+#right {
+	width: 143px;
+}
+
+.button:hover {
+	border: 1px solid #5c5757;
+	color: black;
+}
+
+/* Footer */
+
+.footer {
+	position: absolute;
+	margin-top:265px;
+
+	width:100%;
+	height: 82px;
+	color: #5c5757;
+	background-color: #f3f2f2;
+}
+
+.upper-f{
+	display:block;
+	height:41px;
+	padding-top:10px;
+	padding-left: 50px;
+
+	font-size: 15px;
+	font-family: Roboto;
+	border-top: 1px solid #dad8d8;
+	border-bottom: 1px solid #dad8d8;
+}      
+
+.lower-f{
+	display:block;
+	height:41px;
+	padding-left: 40px;
+	margin-top: 10px;
+	
+	background-color: #f3f2f2;
+	font-size: 13px;
+	font-family: Roboto;
+}     
+
+.left{
+	display: inline-block;
+}
+
+.right{
+	margin-left: 70%;
+	display: inline-block;
+}
+
+.footer a:link, .footer a:visited{
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer span {
+	display:inline-block;
+	margin: 0 10px;
+	font-family: Roboto;
+}
