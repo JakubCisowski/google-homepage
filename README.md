@@ -1,13 +1,19 @@
-	Hello!
-	My name is Jakub Cisowski, and this is one of my first projects.
-	The project concept is to build page as similar as possible to Google.com homepage.
+# Google Homepage
 
-	Skills that helped me complete this project:
-		 - managing positioning of elements by basic understanding of 'border-box' box model, position and display properties
-		 - basic understanding of Web Developer Tools
-		 - getting a bit of help from Google and Gitter
-		 - the Odin Project itself! I might never have got that job done but for this course.
+## Project info
 
+*	**Author:** 
+	*Jakub Cisowski*
 
-------------------------
- 	From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+*	**Project goal:**
+	*Build page as similar as possible to [*Google.com* homepage](https://www.google.pl/?gfe_rd=cr&dcr=0&ei=fhZBWrWwH-qkX5Pti9AI)*
+
+*	**Purpose:**
+	*Practice basic HTML and CSS*
+
+## Instruction
+
+*	Enjoy my version's appearance! There are no scripts or references on this page, because it's purpose is to practice HTML and CSS!
+
+---
+[Project page on *The Odin Project* website](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
